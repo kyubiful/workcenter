@@ -1,0 +1,53 @@
+{
+  "home": {
+    "welcome": "Bienvenido",
+    "login": "Iniciar Sesión",
+    "loginMessage": "Inicia Sesión",
+    "logout": "Cerrar Sesión"
+  },
+  "menu": {
+    "title": "WorkCenter",
+    "userMenuTitle": "Inicio",
+    "personalData": "Datos Personales",
+    "calendar": "Calendario",
+    "timeReporting": "Imputaciones",
+    "pmMenuTitle": "PM",
+    "projectManager": "Jefe de Proyectos",
+    "information": "Información",
+    "assignments": "Asignaciones",
+    "planning": "Planificación",
+    "summary": "Resumen",
+    "production": "Producción",
+    "reports": "Informes",
+    "profile": "Perfil",
+    "logout": "Cerrar Sesión"
+  },
+  "timeReporting": {
+    "title": "Imputaciones"
+  },
+  "calendar": {
+    "title": "Calendario"
+  },
+  "personalData": {
+    "title": "Datos Personales",
+    "contactDetailAddress": "Datos de contacto dirección",
+    "otherPersonalData": "Otros datos personales",
+    "profile": "Perfil",
+    "settings": "Ajustes",
+    "personalNumber": "Número Personal",
+    "idNumber": "NIF",
+    "email": "Email",
+    "internalMobile": "Móvil interno",
+    "externalMobile": "Móvil externo",
+    "internalPhone": "Telefono interno",
+    "address": "Dirección",
+    "postalCode": "Código Postal",
+    "town": "Municipio",
+    "provinceState": "Provincia",
+    "country": "País",
+    "birthDate": "Fecha de nacimiento",
+    "maritalStatus": "Estado civil",
+    "numberChildren": "Nº de hijos",
+    "requestDataModification": "Solicitar Modificación de Datos"
+  }
+}

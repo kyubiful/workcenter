@@ -1,0 +1,53 @@
+{
+  "home": {
+    "welcome": "Welcome",
+    "login": "Login",
+    "loginMessage": "Login",
+    "logout": "Logout"
+  },
+  "menu": {
+    "title": "WorkCenter",
+    "userMenuTitle": "Home",
+    "personalData": "Personal Data",
+    "calendar": "Calendar",
+    "timeReporting": "Time Reporting",
+    "pmMenuTitle": "PM",
+    "projectManager": "Project Manager",
+    "information": "Information",
+    "assignments": "Assignments",
+    "planning": "Planning",
+    "summary": "Summary",
+    "production": "Production",
+    "reports": "Reports",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "timeReporting": {
+    "title": "Time Reporting"
+  },
+  "calendar": {
+    "title": "Calendar"
+  },
+  "personalData": {
+    "title": "Personal Data",
+    "contactDetailAddress": "Contact Details Address",
+    "otherPersonalData": "Other Personal Data",
+    "profile": "Profile",
+    "settings": "Settings",
+    "personalNumber": "Personal Number",
+    "idNumber": "ID Number",
+    "email": "Email",
+    "internalMobile": "Internal Mobile",
+    "externalMobile": "External Mobile",
+    "internalPhone": "Internal Phone",
+    "address": "Address",
+    "postalCode": "Postal Code",
+    "town": "Town",
+    "provinceState": "Province/State",
+    "country": "Country",
+    "birthDate": "Birth Date",
+    "maritalStatus": "Marital Status",
+    "numberChildren": "Nº of Children",
+    "requestDataModification": "Request Data Modification"
+  }
+}

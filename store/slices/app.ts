@@ -16,7 +16,10 @@ const initialApp: App = {
 
 export const appSlice: StateCreator<AppSlice> = (set) => ({
   app: initialApp,
-  openMenu: () => set((state) => ({ app: { ...state.app, menuOpen: true } })),
-  closeMenu: () => set((state) => ({ app: { ...state.app, menuOpen: false } })),
+  toggleMenu: () => set((state) => {
+    return {
+      app: { ...state.app, menuOpen: !state.app.menuOpen }
+    }
+  }),
   removeSettings: () => set({ app: initialApp })
 })

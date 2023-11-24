@@ -102,13 +102,11 @@ export default function MiniDrawer({ children }: { children: ReactNode }) {
   const locale = useLocale()
   const pathname = usePathname()
   const router = useRouter()
-  const openMenu = useStore(state => state.openMenu)
-  const closeMenu = useStore(state => state.closeMenu)
+  const toggleMenu = useStore(state => state.toggleMenu)
   const appState = useStore(state => state.app)
 
-
   const changeLanguage = () => {
-    router.replace(pathname, { locale: locale === 'es' ? 'en' : 'es' })
+    router.push(pathname, { locale: locale === 'es' ? 'en' : 'es' })
   }
 
   const NAVIGATION = [
@@ -158,12 +156,12 @@ export default function MiniDrawer({ children }: { children: ReactNode }) {
   ]
 
   const handleDrawerOpen = () => {
-    openMenu()
-  };
+    toggleMenu()
+  }
 
   const handleDrawerClose = () => {
-    closeMenu()
-  };
+    toggleMenu()
+  }
 
   return (
     <Box sx={{ display: 'flex' }}>
